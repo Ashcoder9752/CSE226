@@ -1,6 +1,5 @@
 package com.example.mygridviewpractice
 
-import android.media.Image
 import android.os.Bundle
 import android.widget.GridView
 import android.widget.Toast
@@ -20,25 +19,26 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        // Sample resource ID for the image to be used in each grid item
         val sameImageResId = R.mipmap.ic_launcher_round
 
+        // Create an array of GridItem objects
         val items = Array(30) { index ->
             GridItem(sameImageResId, "Item ${index + 1}")
         }
 
-        val gridView = findViewById<GridView>(R.id.grid_view)
+        val gridView: GridView = findViewById(R.id.grid_view)
         gridView.adapter = GridAdapter(this, items)
 
+        // Set an item click listener to handle clicks on grid items
         gridView.setOnItemClickListener { parent, view, position, id ->
-            // Handle item click here
             val clickedItem = parent.getItemAtPosition(position) as GridItem
-            // Do something with the clicked item
             Toast.makeText(this, "Clicked: ${clickedItem.title}", Toast.LENGTH_SHORT).show()
-
         }
     }
 }
 
+// Data class representing a grid item with an image and title
 data class GridItem(
     val image: Int,
     val title: String
