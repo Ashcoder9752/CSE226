@@ -8,7 +8,7 @@ This repository is organized into units, with each unit containing files that co
 
 ### Unit I: List and Recycler View
 
-- **[List View](Unit-I/1.MyListPractice/README.md)**: Detailed explanation of custom list views, including layouts, interactions, and performance optimization.
+- **[List View](UNIT-I/1.MyListPractice/README.md)**: Detailed explanation of custom list views, including layouts, interactions, and performance optimization.
 <!--
 - **[Grid View](Unit-I/Grid-View.md)**: A guide to creating and customizing grid views, including layout design and implementation.
 - **[Recycler View](Unit-I/Recycler-View.md)**: Comprehensive coverage of RecyclerView, including view holders, adapters, layout managers, and handling click events.
