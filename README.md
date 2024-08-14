@@ -9,40 +9,40 @@ This repository is organized into units, with each unit containing files that co
 ### Unit I: List and Recycler View
 
 - **[List View](UNIT-I/1.MyListPractice/README.md)**: Detailed explanation of custom list views, including layouts, interactions, and performance optimization.
+- **[Grid View](UNIT-I/2.MyGridViewPractice/README.md)**: A guide to creating and customizing grid views, including layout design and implementation.
 <!--
-- **[Grid View](Unit-I/Grid-View.md)**: A guide to creating and customizing grid views, including layout design and implementation.
-- **[Recycler View](Unit-I/Recycler-View.md)**: Comprehensive coverage of RecyclerView, including view holders, adapters, layout managers, and handling click events.
-- **[Card View](Unit-I/Card-View.md)**: Instructions on creating and styling card views, along with integration tips.
+- **[Recycler View](UNIT-I/Recycler-View.md)**: Comprehensive coverage of RecyclerView, including view holders, adapters, layout managers, and handling click events.
+- **[Card View](UNIT-I/Card-View.md)**: Instructions on creating and styling card views, along with integration tips.
 
 ### Unit II: Background Processes
 
-- **[Kotlin Coroutines](Unit-II/Kotlin-Coroutines.md)**: Basics of Kotlin coroutines, scopes, contexts, and integration with Live Data.
-- **[Services](Unit-II/Services.md)**: How to create and manage bound and unbound services, including foreground services.
-- **[Broadcast Receiver](Unit-II/Broadcast-Receiver.md)**: How to register and handle broadcasts in Android.
+- **[Kotlin Coroutines](UNIT-II/Kotlin-Coroutines.md)**: Basics of Kotlin coroutines, scopes, contexts, and integration with Live Data.
+- **[Services](UNIT-II/Services.md)**: How to create and manage bound and unbound services, including foreground services.
+- **[Broadcast Receiver](UNIT-II/Broadcast-Receiver.md)**: How to register and handle broadcasts in Android.
 
 ### Unit III: Delightful User Experience
 
-- **[Drawables](Unit-III/Drawables.md)**: Overview of drawable types, usage, and creating custom drawables.
-- **[Styles & Themes](Unit-III/Styles-Themes.md)**: How to define and apply styles and themes in your app.
-- **[Card and Color](Unit-III/Card-Color.md)**: Managing color resources, color schemes, and theming.
-- **[Floating Action Buttons](Unit-III/Floating-Action-Buttons.md)**: Implementation and customization of Floating Action Buttons.
+- **[Drawables](UNIT-III/Drawables.md)**: Overview of drawable types, usage, and creating custom drawables.
+- **[Styles & Themes](UNIT-III/Styles-Themes.md)**: How to define and apply styles and themes in your app.
+- **[Card and Color](UNIT-III/Card-Color.md)**: Managing color resources, color schemes, and theming.
+- **[Floating Action Buttons](UNIT-III/Floating-Action-Buttons.md)**: Implementation and customization of Floating Action Buttons.
 
 ### Unit IV: Storage Options
 
-- **[SQLite Database](Unit-IV/SQLite-Database.md)**: Creating, managing, and performing CRUD operations with SQLite. Includes a guide on SQLiteOpenHelper.
-- **[Room Database](Unit-IV/Room-Database.md)**: Working with Room Database, including entities, DAOs, migration, and Live Data integration.
+- **[SQLite Database](UNIT-IV/SQLite-Database.md)**: Creating, managing, and performing CRUD operations with SQLite. Includes a guide on SQLiteOpenHelper.
+- **[Room Database](UNIT-IV/Room-Database.md)**: Working with Room Database, including entities, DAOs, migration, and Live Data integration.
 
 ### Unit V: Location and Maps
 
-- **[User's Current Location](Unit-V/User-Location.md)**: Accessing and updating user location, handling permissions, and using the Fused Location Provider.
-- **[Google Maps API](Unit-V/Google-Maps-API.md)**: Integration, customization, and handling geo/reverse geo coding.
-- **[API Calling](Unit-V/API-Calling.md)**: Making API calls, handling responses, and integrating APIs with location services.
+- **[User's Current Location](UNIT-V/User-Location.md)**: Accessing and updating user location, handling permissions, and using the Fused Location Provider.
+- **[Google Maps API](UNIT-V/Google-Maps-API.md)**: Integration, customization, and handling geo/reverse geo coding.
+- **[API Calling](UNIT-V/API-Calling.md)**: Making API calls, handling responses, and integrating APIs with location services.
 
 ### Unit VI: Testing and Deployment
 
-- **[Debugging](Unit-VI/Debugging.md)**: Techniques and tools for effective debugging and error analysis.
-- **[Unit Test and Espresso Test](Unit-VI/Testing.md)**: Writing and running unit and UI tests.
-- **[Deployment](Unit-VI/Deployment.md)**: Steps to upload an app on Google Play, including preparation, signing, and managing your developer account.
+- **[Debugging](UNIT-VI/Debugging.md)**: Techniques and tools for effective debugging and error analysis.
+- **[Unit Test and Espresso Test](UNIT-VI/Testing.md)**: Writing and running unit and UI tests.
+- **[Deployment](UNIT-VI/Deployment.md)**: Steps to upload an app on Google Play, including preparation, signing, and managing your developer account.
 -->
 
 ## How to Use This Repository
