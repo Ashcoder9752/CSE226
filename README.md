@@ -1,3 +1,4 @@
+
 # CSE226: Android App Development - Student Resource
 
 Welcome to the CSE226 resource repository! This repository is created to provide clear and organized explanations of concepts covered in the course. Each file includes detailed information on various topics, helping you understand and master the material.
@@ -10,8 +11,8 @@ This repository is organized into units, with each unit containing files that co
 
 - **[List View](UNIT-I/1.MyListPractice/README.md)**: Detailed explanation of custom list views, including layouts, interactions, and performance optimization.
 - **[Grid View](UNIT-I/2.MyGridViewPractice/README.md)**: A guide to creating and customizing grid views, including layout design and implementation.
+- **[Recycler View](UNIT-I/3.RecyclerViewPractice/README.md)**: Comprehensive coverage of RecyclerView, including view holders, adapters, layout managers, and handling click events.
 <!--
-- **[Recycler View](UNIT-I/Recycler-View.md)**: Comprehensive coverage of RecyclerView, including view holders, adapters, layout managers, and handling click events.
 - **[Card View](UNIT-I/Card-View.md)**: Instructions on creating and styling card views, along with integration tips.
 
 ### Unit II: Background Processes
