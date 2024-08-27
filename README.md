@@ -12,9 +12,8 @@ This repository is organized into units, with each unit containing files that co
 - **[List View](UNIT-I/1.MyListPractice/README.md)**: Detailed explanation of custom list views, including layouts, interactions, and performance optimization.
 - **[Grid View](UNIT-I/2.MyGridViewPractice/README.md)**: A guide to creating and customizing grid views, including layout design and implementation.
 - **[Recycler View](UNIT-I/3.RecyclerViewPractice/README.md)**: Comprehensive coverage of RecyclerView, including view holders, adapters, layout managers, and handling click events.
+- **[Card View](UNIT-I/4.MyCardView/README.md)**: Instructions on creating and styling card views, along with integration tips.
 <!--
-- **[Card View](UNIT-I/Card-View.md)**: Instructions on creating and styling card views, along with integration tips.
-
 ### Unit II: Background Processes
 
 - **[Kotlin Coroutines](UNIT-II/Kotlin-Coroutines.md)**: Basics of Kotlin coroutines, scopes, contexts, and integration with Live Data.
