@@ -10,17 +10,17 @@ This guide provides a step-by-step approach to creating a custom RecyclerView in
 
 Design a custom layout for the RecyclerView items. This layout defines how each item should appear in the RecyclerView. You will typically create an XML file that specifies the layout structure, including any views such as ImageViews and TextViews.
 
-[**`list_item.xml`**](app/src/main/res/layout/list_item.xml)
+[**`list_item.xml`**](./app/src/main/res/layout/list_item.xml)
 
 ### 2. Add a RecyclerView to Your Activity's Layout
 
 Add a RecyclerView to your activity’s layout XML file. This RecyclerView will serve as the container for displaying all your items. Make sure to specify its width and height, and provide it with an id so you can reference it in your activity code.
 
-[**`activity_main.xml`**](app/src/main/res/layout/activity_main.xml)
+[**`activity_main.xml`**](./app/src/main/res/layout/activity_main.xml)
 
 ### 3. Implement the Custom Recycler View Adapter
 
-Create a file [**`RecyclerViewUtils.kt`**](app/src/main/java/com/example/recyclerviewpractice/RecyclerViewUtils.kt), which will contain all the classes and interfaces for your recycler view to work
+Create a file [**`RecyclerViewUtils.kt`**](./app/src/main/java/com/example/recyclerviewpractice/RecyclerViewUtils.kt), which will contain all the classes and interfaces for your recycler view to work
 
 #### Adapter & ViewHolder Setup
 
@@ -28,10 +28,10 @@ The custom adapter is a crucial component in a RecyclerView. It binds your data 
 
 **Steps to Create a Custom Adapter:**
 
-1. **Create a Kotlin Class for Your Adapter:** [**MyAdapter**](app/src/main/java/com/example/recyclerviewpractice/RecyclerViewUtils.kt)
+1. **Create a Kotlin Class for Your Adapter:** [**MyAdapter**](./app/src/main/java/com/example/recyclerviewpractice/RecyclerViewUtils.kt)
     - This class will extend `RecyclerView.Adapter` and use a custom `ViewHolder`.
 
-2. **Define a ViewHolder:** [**MyViewHolder**](app/src/main/java/com/example/recyclerviewpractice/RecyclerViewUtils.kt)
+2. **Define a ViewHolder:** [**MyViewHolder**](./app/src/main/java/com/example/recyclerviewpractice/RecyclerViewUtils.kt)
     - Inside your RecyclerViewUtils.kt, define a class that extends `RecyclerView.ViewHolder`. The ViewHolder holds the views for each item and binds data to them.
 
 3. **Override Adapter Methods:**
@@ -44,10 +44,10 @@ The custom adapter is a crucial component in a RecyclerView. It binds your data 
 
 To handle clicks on individual items, you need to define a click listener interface that your MainActivity will implement. This approach decouples the click handling from the adapter and ViewHolder, providing flexibility and reusability.
 
-1. **Define an Interface:** [**MyItemClickListener**](app/src/main/java/com/example/recyclerviewpractice/RecyclerViewUtils.kt)
+1. **Define an Interface:** [**MyItemClickListener**](./app/src/main/java/com/example/recyclerviewpractice/RecyclerViewUtils.kt)
    - Create an interface in your adapter class (or a separate file) with a method like `onItemClick(androidVersion: AndroidVersion)`.
 
-2. **Implement the Interface in MainActivity:** [**MainActivity**](app/src/main/java/com/example/recyclerviewpractice/MainActivity.kt)
+2. **Implement the Interface in MainActivity:** [**MainActivity**](./app/src/main/java/com/example/recyclerviewpractice/MainActivity.kt)
    - Have your MainActivity implement the interface. Override the `onItemClick` method to define what happens when an item is clicked.
 
 3. **Pass the Listener to the Adapter:**
@@ -78,13 +78,13 @@ By understanding the role of the adapter, the ViewHolder pattern, the click list
 
 In your activity, first create and populate a data source using your data class. Next, instantiate your custom adapter with this data source and set it to the RecyclerView. This will link your data with the RecyclerView and display the items using the custom layout.
 
-[**`MainActivity.kt`**](app/src/main/java/com/example/recyclerviewpractice/MainActivity.kt)
+[**`MainActivity.kt`**](./app/src/main/java/com/example/recyclerviewpractice/MainActivity.kt)
 
 ### 5. (OPTIONAL) Define Click Listener
 
 If you want to handle item clicks in the RecyclerView, set an OnClickListener for the RecyclerView items in Activity file. This listener allows you to perform actions based on user interactions with individual items, such as navigating to a new screen or showing a detailed view.
 
-[**`MainActivity.kt`**](app/src/main/java/com/example/recyclerviewpractice/MainActivity.kt)
+[**`MainActivity.kt`**](./app/src/main/java/com/example/recyclerviewpractice/MainActivity.kt)
 
 ### AND ALL SET!
 
