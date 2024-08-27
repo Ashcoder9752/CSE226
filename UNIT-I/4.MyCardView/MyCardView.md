@@ -1,6 +1,8 @@
 
 # Custom CardView with Swipe and Drag-and-Drop in Android
 
+<img src="./Screenshot_20240827_145715.png" alt="image showing the output" width="240" />
+
 This guide demonstrates how to create a custom CardView in Android that allows both swiping and drag-and-drop actions. We'll leverage a `RecyclerView` for efficient data management and utilize `ItemTouchHelper` for swipe gestures and drag-and-drop functionality.
 
 In this guide, we will not focus much on how to create a RecyclerView. For that, you can refer to [**`RecyclerView`**](../3.RecyclerViewPractice/RecyclerViewPractice.md).
