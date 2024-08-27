@@ -4,7 +4,7 @@
 
 This guide provides a step-by-step approach to creating a custom CardView in Android. Follow these steps to implement a custom CardView using a custom adapter and layout.
 
-In this guide, we will not focus much on how to create a RecyclerView. For that, you can refer to [**`RecyclerView`**](../3.RecyclerViewPractice/README.md).
+In this guide, we will not focus much on how to create a RecyclerView. For that, you can refer to [**`RecyclerView`**](../3.RecyclerViewPractice/RecyclerViewPractice.md).
 
 ## Steps to Create a Custom CardView
 
@@ -56,7 +56,7 @@ Implement the RecyclerView in your activity by setting up a layout manager and l
 
 [**`MainActivity.kt`**](app/src/main/java/com/example/mycardview/MainActivity.kt)
 
-For detailed guide on creating [**`RecyclerView`**](../3.RecyclerViewPractice/README.md) click here
+For detailed guide on creating [**`RecyclerView`**](../3.RecyclerViewPractice/RecyclerViewPractice.md) click here
 
 ### AND ALL SET!!!
 
