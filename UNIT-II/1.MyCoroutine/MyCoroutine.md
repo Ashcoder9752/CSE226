@@ -1,9 +1,11 @@
 # Understanding Kotlin Coroutines and File Downloading in Android
 
-<img src="./Screenshot_20240922_191109.png" alt="image showing the output" width="240" />
-<img src="./Screenshot_20240922_191135.png" alt="image showing the output" width="240" />
-<img src="./Screenshot_20240922_191154.png" alt="image showing the output" width="240" />
-<img src="./Screenshot_20240922_191237.png" alt="image showing the output" width="240" />
+<div style="display: flex; flex-direction: row; gap: 24px;">
+    <img src="./Screenshot_20240922_191109.png" alt="image showing the output" width="240" />
+    <img src="./Screenshot_20240922_191135.png" alt="image showing the output" width="240" />
+    <img src="./Screenshot_20240922_191154.png" alt="image showing the output" width="240" />
+    <img src="./Screenshot_20240922_191237.png" alt="image showing the output" width="240" />
+</div>
 
 ## What Happens Without Coroutines?
 
