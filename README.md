@@ -15,8 +15,8 @@ This repository is organized into units, with each unit containing files that co
 ### Unit II: Background Processes
 
 - **[Kotlin Coroutines](UNIT-II/1.MyCoroutine/MyCoroutine.md)**: Basics of Kotlin coroutines, scopes, contexts, and integration with Live Data.
+- **[Services](UNIT-II/2.MyServices/MyServices.md)**: How to create and manage bound and unbound services, including foreground services.
 <!--
-- **[Services](UNIT-II/Services.md)**: How to create and manage bound and unbound services, including foreground services.
 - **[Broadcast Receiver](UNIT-II/Broadcast-Receiver.md)**: How to register and handle broadcasts in Android.
 
 ### Unit III: Delightful User Experience
