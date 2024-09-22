@@ -1,5 +1,11 @@
 # Services in Android
 
+<div style="display: flex; flex-direction: row; gap: 24px;">
+    <img src="./Screenshot_20240923_031008.png" alt="image showing the output" width="240" />
+    <img src="./Screenshot_20240923_031026.png" alt="image showing the output" width="240" />
+    <img src="./Screenshot_20240923_031053.png" alt="image showing the output" width="240" />
+</div>
+
 This guide provides a step-by-step approach to create and use Foreground, Background and Bound Services. Follow these steps to learn and implement services for executing long-running background tasks.
 
 ## Introduction to Services
