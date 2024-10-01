@@ -16,9 +16,8 @@ This repository is organized into units, with each unit containing files that co
 
 - **[Kotlin Coroutines](UNIT-II/1.MyCoroutine/MyCoroutine.md)**: Basics of Kotlin coroutines, scopes, contexts, and integration with Live Data.
 - **[Services](UNIT-II/2.MyServices/MyServices.md)**: How to create and manage foreground, background and bound services.
+- **[Broadcast Receiver](UNIT-II/3.MyBroadcastReceiver/MyBroadcastReceiver.md)**: How to register and handle broadcasts in Android.
 <!--
-- **[Broadcast Receiver](UNIT-II/Broadcast-Receiver.md)**: How to register and handle broadcasts in Android.
-
 ### Unit III: Delightful User Experience
 
 - **[Drawables](UNIT-III/Drawables.md)**: Overview of drawable types, usage, and creating custom drawables.
