@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Bitmap Drawable -->
+        <ImageView
+            android:id="@+id/bitmapImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bitmap_drawable"
+            android:contentDescription="Bitmap Drawable"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Bitmap Drawable"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <!-- Shape Drawable -->
+        <View
+            android:id="@+id/shapeView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shape_drawable"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Shape Drawable"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <!-- Layer List Drawable -->
+
+        <View
+            android:id="@+id/layerListView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/layer_list_drawable" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Layer List Drawable"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <!-- State List Drawable -->
+        <Button
+            android:id="@+id/stateButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="24dp"
+            android:paddingHorizontal="16dp"
+            android:text="State Button"
+            android:background="@drawable/state_list_drawable" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="State List Drawable"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <!-- Animation List Drawable -->
+        <ImageView
+            android:id="@+id/animationImageView"
+            android:layout_width="240dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/animation_list_drawable"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Animation List Drawable"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <!-- Vector Drawable -->
+        <ImageView
+            android:id="@+id/vectorImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_vector_drawable"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Vector Drawable"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <!-- Custom Drawable -->
+        <ImageView
+            android:id="@+id/customDrawableImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Custom Drawable"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</ScrollView>
