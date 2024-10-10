@@ -22,8 +22,8 @@ This repository is organized into units, with each unit containing files that co
 ### Unit III: Delightful User Experience
 
 - **[Drawables](UNIT-III/1.MyDrawables/MyDrawables.md)**: Overview of drawable types, usage, and creating custom drawables.
+- **[Styles & Themes](UNIT-III/2.MyStylesAndThemes/MyStylesAndThemes.md)**: How to define and apply styles and themes in your app.
 <!--
-- **[Styles & Themes](UNIT-III/Styles-Themes.md)**: How to define and apply styles and themes in your app.
 - **[Card and Color](UNIT-III/Card-Color.md)**: Managing color resources, color schemes, and theming.
 - **[Floating Action Buttons](UNIT-III/Floating-Action-Buttons.md)**: Implementation and customization of Floating Action Buttons.
 

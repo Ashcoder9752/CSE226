@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#FF03DAC5</color>
+
+    <color name="my_light_primary">#FF5733</color> <!-- A vibrant reddish-orange color -->
+    <color name="my_light_on_primary">#FFFFFF</color> <!-- White text on primary -->
+    <color name="my_light_background">#F0F4F8</color> <!-- Light grayish background -->
+    <color name="my_light_secondary">#FFC300</color> <!-- Bright yellow for secondary -->
+    <color name="my_light_on_secondary">#000000</color> <!-- Black text on secondary -->
+    <color name="my_light_text">#212121</color> <!-- Dark gray text for readability -->
+
+    <color name="my_dark_primary">#C70039</color> <!-- A bold magenta color -->
+    <color name="my_dark_on_primary">#FFFFFF</color> <!-- White text on primary -->
+    <color name="my_dark_background">#181818</color> <!-- Very dark gray background -->
+    <color name="my_dark_secondary">#FFB300</color> <!-- Bright amber for secondary -->
+    <color name="my_dark_on_secondary">#000000</color> <!-- Black text on secondary -->
+    <color name="my_dark_text">#EAEAEA</color> <!-- Light gray text for readability -->
+
+    <!-- Ocean theme colors -->
+    <color name="ocean_primary">#009688</color> <!-- Teal color -->
+    <color name="ocean_on_primary">#FFFFFF</color> <!-- White text on primary -->
+    <color name="ocean_background">#E0F7FA</color> <!-- Light cyan background -->
+    <color name="ocean_secondary">#00796B</color> <!-- Dark teal for secondary -->
+    <color name="ocean_on_secondary">#FFFFFF</color> <!-- White text on secondary -->
+    <color name="ocean_text">#004D40</color> <!-- Dark green text for readability -->
+
+    <!-- Forest theme colors -->
+    <color name="forest_primary">#4CAF50</color> <!-- Green color -->
+    <color name="forest_on_primary">#FFFFFF</color> <!-- White text on primary -->
+    <color name="forest_background">#E8F5E9</color> <!-- Light green background -->
+    <color name="forest_secondary">#388E3C</color> <!-- Dark green for secondary -->
+    <color name="forest_on_secondary">#FFFFFF</color> <!-- White text on secondary -->
+    <color name="forest_text">#2E7D32</color> <!-- Darker green text for readability -->
+</resources>

@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyStylesAndThemes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/my_dark_primary</item> <!-- Dark primary color -->
+        <item name="colorOnPrimary">@color/my_dark_on_primary</item> <!-- Dark text color on primary -->
+        <item name="android:colorBackground">@color/my_dark_background</item> <!-- Dark background color -->
+        <item name="colorSecondary">@color/my_dark_secondary</item> <!-- Dark secondary color -->
+        <item name="colorOnSecondary">@color/my_dark_on_secondary</item> <!-- Dark text color on secondary -->
+        <item name="android:textColor">@color/my_dark_text</item> <!-- Dark text color -->
+    </style>
+
+    <style name="Theme.MyStylesAndThemes" parent="Base.Theme.MyStylesAndThemes" />
+
+    <style name="Theme.Ocean" parent="Base.Theme.MyStylesAndThemes">
+        <item name="colorPrimary">@color/ocean_primary</item>
+        <item name="colorOnPrimary">@color/ocean_on_primary</item>
+        <item name="android:colorBackground">@color/ocean_background</item>
+        <item name="colorSecondary">@color/ocean_secondary</item>
+        <item name="colorOnSecondary">@color/ocean_on_secondary</item>
+        <item name="android:textColor">@color/ocean_text</item>
+    </style>
+
+    <style name="Theme.Forest" parent="Base.Theme.MyStylesAndThemes">
+        <item name="colorPrimary">@color/forest_primary</item>
+        <item name="colorOnPrimary">@color/forest_on_primary</item>
+        <item name="android:colorBackground">@color/forest_background</item>
+        <item name="colorSecondary">@color/forest_secondary</item>
+        <item name="colorOnSecondary">@color/forest_on_secondary</item>
+        <item name="android:textColor">@color/forest_text</item>
+        </style>
+</resources>
