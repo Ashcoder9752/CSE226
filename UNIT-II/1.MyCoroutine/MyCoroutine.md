@@ -24,7 +24,7 @@ experience.
   notice that the ripple effect and `Toast` message won't appear until the delay is complete. This
   demonstrates how the UI freezes when a long task blocks the main thread.
 
-[**`Main Activity`**](./app/src/main/res/layout/activity_main.xml) click here to view implmentation
+[**`Main Activity`**](./app/src/main/java/com/example/mycoroutine/MainActivity.kt) click here to view implmentation
 
 ### Looper and Handler
 
@@ -387,8 +387,7 @@ dependencies. Here's how to do it using TOML for dependency management:
 
 3. **Reference Dependencies in `build.gradle.kts`**:
 
-   In your `build.gradle.kts` file, include the Ktor dependencies using the `libs` reference: [*
-   *`build.gradle.kts`**](./app/build.gradle.kts)
+   In your `build.gradle.kts` file, include the Ktor dependencies using the `libs` reference: [**`build.gradle.kts`**](./app/build.gradle.kts)
 
     ```kotlin
     dependencies {
